@@ -1,0 +1,31 @@
+Image 1
+<!IDOCTYPE html>
+<html>
+<body>
+<img id="myImage" onclick="changeImage()" src="bulb.png" width="10e" height="18e">
+<p>Click the light bulb to turn on/off the light.</p>
+<script>
+function changeImage()
+{
+var image = document.getElementById('myImage’ );
+if (image.src.match("bulbon") )
+
+a:
+image.src = "bulb.png";
+t
+else
+{
+image.src = “bulbon.png|";
+t
+}
+</script>
+</body>
+
+</html>
+------------------------------------------------------------
+Image 2
+Selecting
+TYPEFACES
+
+for body text
+------------------------------------------------------------
